@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo Clientes</title>
+</head>
+
+<body>
+    <div>
+        <form method="POST" action="inserirClientePHP.php">
+            <label for="cnome">Nome:</label><br>
+            <input type="text" id="cnome" name="nome" placeholder="Seu nome.."><br>
+            <label for="cendereco">Endereço:</label><br>
+            <input type="text" id="cendereco" name="endereco" placeholder="Sobrenome.."><br>
+            <label for="cidade">Cidade:</label><br>
+            <select id="cidade" name="cidade">
+                <option value="Indaiatuba">Indaiatuba</option>
+                <option value="Campinas">Campinas</option>
+                <option value="Jundiaí">Jundiaí</option>
+            </select><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+</body>
+
+</html>
